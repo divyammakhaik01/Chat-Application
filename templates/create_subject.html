@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block navbar %}
+
+<body style="background-color: rgb(34, 33, 33);">
+
+    <h1 class="container text-center " style="color:bisque">Create Room</h1>
+    <div class="container bg-white py-5">
+        <form action="/create_subject" method="POST">
+            <div class="container my-5 ">
+                <div class="mb-5">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="subject_name" placeholder="Enter room name"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="pass" class="form-label">Description</label>
+                    <textarea class="form-control" id="pass" name="subject_desc"
+                        placeholder="Enter something...."></textarea>
+                </div>
+                <div class="mb-3">
+                    <p>Requires Password:<br>
+                        <label>
+                            <input type="radio" id="require_yes" name="require" value="1" required>
+                            Yes
+                        </label>
+                        <label>
+                            <input type="radio" id="require_no" name="require" value="0">
+                            No
+                        </label>
+                    </p>
+                </div>
+                <div class="mb-3">
+                    <label for="pass" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="pass" name="subject_pass"
+                        placeholder="Enter Password" autocomplete="off">
+                </div>
+                <button class="btn btn-primary my-2" type="submit">Create</button>
+            </div>
+
+        </form>
+
+    </div>
+
+    {% endblock navbar %}
+
+</body>

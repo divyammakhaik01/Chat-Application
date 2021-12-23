@@ -1,0 +1,8 @@
+{
+  "params": {
+    "PASSWORD": "Apple123#",
+    "USER": "root",
+    "DB_NAME": "chat",
+    "KEY" : "abcd"
+  }
+}

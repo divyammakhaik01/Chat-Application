@@ -1,0 +1,39 @@
+#display-section {
+  min-height: 76vh;
+  max-height: 80vh;
+  max-height: 77vh;
+  overflow-y: auto;
+}
+.my-chat {
+  margin-left: 46em;
+  margin-right: 1em;
+}
+
+.other-chat {
+  margin-right: 7em;
+  margin-left: 0em;
+}
+
+#main-section {
+  overflow: hidden;
+  width: 100%;
+}
+
+@media (max-width: 990px) {
+  .my-chat {
+    margin-left: 40em;
+  }
+  .other-chat {
+    margin-right: 11em;
+  }
+}
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+
+.break-text span {
+  word-wrap: break-word;
+}
+.message {
+  /* overflow-wrap: break-word; */
+  overflow-wrap: anywhere;
+}
