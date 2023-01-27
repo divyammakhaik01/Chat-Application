@@ -1,14 +1,14 @@
-## Chat-Application
+# Chat-Application
 
-## HOME PAGE
+### HOME PAGE
 
 ![image](https://user-images.githubusercontent.com/70029548/197467600-09cbc313-012e-4dba-a7ce-d92c0e62b4a4.png)
 
-## LOGIN PAGE
+### LOGIN PAGE
 
 ![image](https://user-images.githubusercontent.com/70029548/197468259-c0bafdf0-c9b8-4e78-98e7-2ec352e7c548.png)
 
-## ROOMS PAGE
+### ROOMS PAGE
 
 ![image](https://user-images.githubusercontent.com/70029548/197467746-f878521e-e578-40de-b572-396d6343a5c3.png)
 
@@ -18,7 +18,7 @@
 
 ![image](https://user-images.githubusercontent.com/70029548/197468009-30dde4f6-a902-4fd1-9619-9e9daba993b9.png)
 
-## CHAT PAGE
+### CHAT PAGE
 
 ![image](https://user-images.githubusercontent.com/70029548/197467786-229e3fa0-2e92-4939-a45f-fa0be821c7a9.png)
 
